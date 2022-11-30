@@ -2,6 +2,9 @@
 line-length = 119
 target-version = ['py37', 'py38', 'py39']
 
+[tool.setuptools]
+py-modules = []
+
 [tool.isort]
 known_first_party = "autogluon"
 known_third_party = [
