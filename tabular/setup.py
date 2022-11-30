@@ -86,5 +86,6 @@ if __name__ == '__main__':
     setup(
         install_requires=install_requires,
         extras_require=extras_require,
+        py_modules=[],
         **setup_args,
     )
